@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(backgroundImage/bg-image.jpg);
+    height: 98vh;
+    background-repeat: no-repeat;
+    width: 98vw;
+}
+
+ul {
+    margin-right: 40px;
+    margin-top: 10px;
+    text-align: end;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+    outline: none;
+    border: none;
+}
+
+ul>li>a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 1, 37);
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(0, 17, 4355, 255, 255);
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul>li>a:hover {
+    border-bottom: 3px solid rgb(0, 1, 37);
+    box-sizing: border-box;
+}
+
+.intro,
+.address>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.intro,
+.address>h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.intro>p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
+    width: 80vw;
+}
+
+.intro {
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+.address h1{
+    font-size: 30px;
+}
+.address h3{
+    font-size: 22px;
+}
+.address {
+    margin-top: 130px;
+    margin-left: 50px;
+}
+iframe{
+    margin-top: 10px;
+}
+.learning{
+    text-align: center;
+    margin: 50px;
+}
+.learning>h1, h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.learning>iframe{
+    justify-content: center;
+}
+.images{
+    padding: 20px;
+    text-align: center;
+}
+.img1{
+margin-right: 10px;
+}

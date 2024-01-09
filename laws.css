@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(backgroundImage/bg-image.jpg);
+  height: 98vh;
+  background-repeat: no-repeat;
+  width: 98vw;
+}
+
+ul {
+  margin-right: 40px;
+  margin-top: 10px;
+  text-align: end;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px;
+  outline: none;
+  border: none;
+}
+
+ul>li>a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(0, 1, 37);
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(0, 17, 4355, 255, 255);
+  outline: none;
+  box-sizing: border-box;
+}
+
+ul>li>a:hover {
+  border-bottom: 3px solid rgb(0, 1, 37);
+  box-sizing: border-box;
+}
+
+.intro,
+.address>h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+.intro,
+.address>h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.exponents-table {
+  width: 40%;
+  margin: 20px auto;
+}
+
+.exponents-table h2 {
+  font-size: 32px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 10px;
+  background-color: rgb(206, 179, 218);
+  padding: 20px;
+}
+table tr:first-child>td{
+  background-color: rgb(201, 211, 255);
+}
+table tr td:nth-child(2){
+  font-size: 22px;
+ background-color: antiquewhite;
+}
+td {
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #e0e0e0;
+}
+.header-cell {
+  font-weight: bold;
+  background-color: rgb(128, 165, 128);
+  color: rgb(0, 41, 0);
+  font-size: 20px;
+}
+.empty-cell {
+  background-color: transparent;
+}
